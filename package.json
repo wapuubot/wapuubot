@@ -24,11 +24,12 @@
 		"wapuu",
 		"wordpress"
 	],
-	"dependencies": {
-	},
+	"dependencies": {},
 	"devDependencies": {
 		"@commitlint/cli": "^6.1.3",
 		"@commitlint/config-conventional": "^6.1.3",
+		"eslint": "^4.18.2",
+		"eslint-plugin-wordpress": "github:WordPress-Coding-Standards/eslint-plugin-wordpress#d188fb5d82322239e48f9a4a06fd2ed4b0741251",
 		"husky": "^0.14.3"
 	},
 	"commitlint": {
@@ -37,6 +38,8 @@
 		]
 	},
 	"scripts": {
-		"commitmsg": "commitlint -e $GIT_PARAMS"
+		"commitmsg": "commitlint -e $GIT_PARAMS",
+		"lint": "eslint .",
+		"test": "npm run lint"
 	}
 }
