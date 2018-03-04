@@ -4,5 +4,8 @@
 	},
 	"extends": [
 		"plugin:wordpress/recommended"
-	]
+	],
+	"parserOptions": {
+		"ecmaVersion": 6
+	}
 }
