@@ -1,0 +1,31 @@
+{
+	"name": "wapuubot",
+	"version": "0.1.0",
+	"description": "Wapuu Bot - A WordPress Slack App",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wapuubot/wapuubot.git"
+	},
+	"homepage": "https://github.com/wapuubot/wapuubot#readme",
+	"bugs": {
+		"url": "https://github.com/wapuubot/wapuubot/issues"
+	},
+	"author": {
+		"name": "Stephen Edgar",
+		"email": "stephen@netweb.com.au",
+		"url": "https://netweb.com.au"
+	},
+	"engines": {
+		"node": ">=8.9.3"
+	},
+	"keywords": [
+		"slack",
+		"wapuu",
+		"wordpress"
+	],
+	"dependencies": {
+	},
+	"devDependencies": {
+	}
+}
