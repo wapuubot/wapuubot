@@ -6,6 +6,6 @@
 		"plugin:wordpress/recommended"
 	],
 	"parserOptions": {
-		"ecmaVersion": 6
+		"ecmaVersion": 12
 	}
 }
