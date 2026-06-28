@@ -30,9 +30,9 @@
 		"dotenv": "^8.2.0"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^6.1.3",
+		"@commitlint/cli": "^21.1.0",
 		"@commitlint/config-conventional": "^6.1.3",
-		"eslint": "^4.18.2",
+		"eslint": "^10.6.0",
 		"eslint-plugin-wordpress": "github:WordPress-Coding-Standards/eslint-plugin-wordpress#d188fb5d82322239e48f9a4a06fd2ed4b0741251",
 		"husky": "^0.14.3"
 	},
